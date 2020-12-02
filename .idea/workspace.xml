@@ -19,20 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be936bd1-0f1f-4e46-944b-a8c902015e25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/app-laravel-8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="be936bd1-0f1f-4e46-944b-a8c902015e25" name="Default Changelist" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -158,7 +154,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -178,8 +176,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606611195532</updated>
-      <workItem from="1606611198530" duration="735000" />
+      <workItem from="1606611198530" duration="1644000" />
+      <workItem from="1606930833091" duration="29000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1606613275142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606613275142</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Commit">
+      <created>1606613307133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606613307133</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,30 +209,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="665" y="405" width="580" height="295" key="#Composer" timestamp="1606613232287">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="665" y="405" width="580" height="295" key="#Composer/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1606613232287" />
-    <state width="1860" height="252" key="GridCell.Tab.0.bottom" timestamp="1606611269224">
+    <state width="1860" height="252" key="GridCell.Tab.0.bottom" timestamp="1606614145139">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1860" height="252" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1606611269224" />
-    <state width="1860" height="252" key="GridCell.Tab.0.center" timestamp="1606611269224">
+    <state width="1860" height="252" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1606614145139" />
+    <state width="1860" height="252" key="GridCell.Tab.0.center" timestamp="1606614145138">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1860" height="252" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1606611269224" />
-    <state width="1860" height="252" key="GridCell.Tab.0.left" timestamp="1606611269224">
+    <state width="1860" height="252" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1606614145138" />
+    <state width="1860" height="252" key="GridCell.Tab.0.left" timestamp="1606614145138">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1860" height="252" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1606611269224" />
-    <state width="1860" height="252" key="GridCell.Tab.0.right" timestamp="1606611269224">
+    <state width="1860" height="252" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1606614145138" />
+    <state width="1860" height="252" key="GridCell.Tab.0.right" timestamp="1606614145139">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1860" height="252" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1606611269224" />
+    <state width="1860" height="252" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1606614145139" />
+    <state x="455" y="221" width="1000" height="662" key="Vcs.Push.Dialog.v2" timestamp="1606613243509">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="455" y="221" width="1000" height="662" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1606613243509" />
   </component>
 </project>
