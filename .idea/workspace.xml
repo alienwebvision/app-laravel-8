@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc3a1f98-6d18-406d-8c08-60ecc9968966" name="Default Changelist" comment="" />
+    <list default="true" id="bc3a1f98-6d18-406d-8c08-60ecc9968966" name="Default Changelist" comment="&quot;First Commit&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,12 +155,31 @@
       <option name="presentableId" value="Default" />
       <updated>1618435841152</updated>
       <workItem from="1618435842217" duration="602000" />
-      <workItem from="1618436950531" duration="396000" />
+      <workItem from="1618436950531" duration="677000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;First Commit&quot;">
+      <created>1618437406712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618437406712</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;First Commit&quot;">
+      <created>1618437529494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618437529494</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;First Commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;First Commit&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2275" y="39" width="1200" height="1009" key="#Deployment" timestamp="1618435987688">
@@ -187,6 +206,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2104" y="0" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618436024970" />
+    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2" timestamp="1618437537376">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618437537376" />
     <state x="2730" y="29" width="289" height="1036" key="ftp.server.browser" timestamp="1618435970783">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
