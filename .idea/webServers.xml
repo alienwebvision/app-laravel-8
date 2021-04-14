@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="687e87ff-8bcb-436d-9f50-2739b854268c" name="lara8-socket-io" url="http://app.laravel-8">
+        <fileTransfer rootFolder="/public_html/app-lara-8" host="ftp.sepm.com.br" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
