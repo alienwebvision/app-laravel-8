@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc3a1f98-6d18-406d-8c08-60ecc9968966" name="Default Changelist" comment="Criado form de cadastro de Posts">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreUpdatePost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/posts/_partials/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/posts/show.blade.php" afterDir="false" />
+    <list default="true" id="bc3a1f98-6d18-406d-8c08-60ecc9968966" name="Default Changelist" comment="Criado form de search de Posts">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/_partials/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/_partials/form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +17,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="DockerExecCommand">
     <ExecCommand>
@@ -32,6 +32,12 @@
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="6403e8ec-7804-44fd-9484-f058de349f0b" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -157,7 +163,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/posts" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -180,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618435841152</updated>
       <workItem from="1618435842217" duration="602000" />
-      <workItem from="1618436950531" duration="23218000" />
+      <workItem from="1618436950531" duration="26152000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;First Commit&quot;">
       <created>1618437406712</created>
@@ -210,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618482253718</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Criado form de search de Posts">
+      <created>1618517941255</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618517941255</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,13 +233,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;First Commit&quot;" />
     <MESSAGE value="Criado form de cadastro de Posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado form de cadastro de Posts" />
+    <MESSAGE value="Criado form de search de Posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criado form de search de Posts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2275" y="39" width="1200" height="1009" key="#Deployment" timestamp="1618435987688">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2275" y="39" width="1200" height="1009" key="#Deployment/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618435987688" />
+    <state x="2473" y="424" width="814" height="238" key="ComposerInitDialogKey" timestamp="1618517996416">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2473" y="424" width="814" height="238" key="ComposerInitDialogKey/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618517996416" />
     <state width="1848" height="241" key="GridCell.Tab.0.bottom" timestamp="1618436264358">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -243,18 +261,18 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1848" height="241" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618436264358" />
-    <state x="2561" y="429" width="628" height="229" key="NewPhpFileDialog" timestamp="1618517402471">
+    <state x="2561" y="429" width="628" height="229" key="NewPhpFileDialog" timestamp="1618518204553">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2561" y="429" width="628" height="229" key="NewPhpFileDialog/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618517402471" />
-    <state x="2104" y="0" key="SettingsEditor" timestamp="1618438837557">
+    <state x="2561" y="429" width="628" height="229" key="NewPhpFileDialog/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618518204553" />
+    <state x="2104" y="0" key="SettingsEditor" timestamp="1618517987990">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2104" y="0" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618438837557" />
-    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2" timestamp="1618482262931">
+    <state x="2104" y="0" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618517987990" />
+    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2" timestamp="1618517959806">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618482262931" />
+    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618517959806" />
     <state x="2730" y="29" width="289" height="1036" key="ftp.server.browser" timestamp="1618435970783">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
