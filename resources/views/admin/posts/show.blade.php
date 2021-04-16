@@ -7,6 +7,9 @@
     <h1>Detalhes do Post {{$post->title}}</h1>
 
     <ul>
+
+        <li><strong>magem:</strong><br>
+            <img src="{{url("storage/{$post->image}")}}" alt="{{$post->title}}" style="max-width: 100px;"></li>
         <li><strong>Título: </strong>{{ $post->title }}</li>
         <li><strong>Conteúdo: </strong>{{ $post->content }}</li>
     </ul>

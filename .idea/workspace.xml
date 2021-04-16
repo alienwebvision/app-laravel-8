@@ -1,14 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a1f98-6d18-406d-8c08-60ecc9968966" name="Default Changelist" comment="Criado form de search de Posts">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" afterDir="false" />
+    <list default="true" id="bc3a1f98-6d18-406d-8c08-60ecc9968966" name="Default Changelist" comment="Criado layout do form de Posts">
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthenticatedSessionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmablePasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/EmailVerificationNotificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/EmailVerificationPromptController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/NewPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordResetLinkController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisteredUserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerifyEmailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Auth/LoginRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/View/Components/AppLayout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/View/Components/GuestLayout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/confirm-password.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/forgot-password.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/reset-password.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify-email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/application-logo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/auth-card.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/auth-session-status.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/auth-validation-errors.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/button.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/dropdown-link.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/dropdown.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/input.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/label.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/nav-link.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/responsive-nav-link.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/AuthenticationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/EmailVerificationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/PasswordConfirmationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/PasswordResetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/app-lara8-socket-io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app-lara8-socket-io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUpdatePost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreUpdatePost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_14_191533_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_14_191533_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/_partials/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/_partials/form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +221,7 @@
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/laravel/breeze" />
     </include_path>
   </component>
   <component name="ProjectId" id="1rB3plpoEu48c0TZ59UvqVWHGiA" />
@@ -158,12 +234,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/posts" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -186,7 +264,8 @@
       <option name="presentableId" value="Default" />
       <updated>1618435841152</updated>
       <workItem from="1618435842217" duration="602000" />
-      <workItem from="1618436950531" duration="26152000" />
+      <workItem from="1618436950531" duration="36778000" />
+      <workItem from="1618576283113" duration="2083000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;First Commit&quot;">
       <created>1618437406712</created>
@@ -223,18 +302,37 @@
       <option name="project" value="LOCAL" />
       <updated>1618517941255</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Criado layout do form de Posts">
+      <created>1618521663429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618521663429</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;First Commit&quot;" />
     <MESSAGE value="Criado form de cadastro de Posts" />
     <MESSAGE value="Criado form de search de Posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado form de search de Posts" />
+    <MESSAGE value="Criado layout do form de Posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criado layout do form de Posts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2275" y="39" width="1200" height="1009" key="#Deployment" timestamp="1618435987688">
@@ -245,42 +343,58 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2473" y="424" width="814" height="238" key="ComposerInitDialogKey/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618517996416" />
-    <state width="1848" height="241" key="GridCell.Tab.0.bottom" timestamp="1618436264358">
+    <state x="2557" y="184" width="636" height="719" key="FileChooserDialogImpl" timestamp="1618578227267">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1848" height="241" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618436264358" />
-    <state width="1848" height="241" key="GridCell.Tab.0.center" timestamp="1618436264358">
+    <state x="2557" y="184" width="636" height="719" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618578227267" />
+    <state width="1848" height="241" key="GridCell.Tab.0.bottom" timestamp="1618578044182">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1848" height="241" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618436264358" />
-    <state width="1848" height="241" key="GridCell.Tab.0.left" timestamp="1618436264357">
+    <state width="1848" height="241" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618578044182" />
+    <state width="1848" height="241" key="GridCell.Tab.0.center" timestamp="1618578044182">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1848" height="241" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618436264357" />
-    <state width="1848" height="241" key="GridCell.Tab.0.right" timestamp="1618436264358">
+    <state width="1848" height="241" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618578044182" />
+    <state width="1848" height="241" key="GridCell.Tab.0.left" timestamp="1618578044181">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1848" height="241" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618436264358" />
+    <state width="1848" height="241" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618578044181" />
+    <state width="1848" height="241" key="GridCell.Tab.0.right" timestamp="1618578044182">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1848" height="241" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618578044182" />
     <state x="2561" y="429" width="628" height="229" key="NewPhpFileDialog" timestamp="1618518204553">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2561" y="429" width="628" height="229" key="NewPhpFileDialog/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618518204553" />
-    <state x="2104" y="0" key="SettingsEditor" timestamp="1618517987990">
+    <state x="2375" y="0" width="999" height="1080" key="RollbackChangesDialog" timestamp="1618578303961">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2104" y="0" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618517987990" />
-    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2" timestamp="1618517959806">
+    <state x="2375" y="0" width="999" height="1080" key="RollbackChangesDialog/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618578303961" />
+    <state x="2104" y="0" key="SettingsEditor" timestamp="1618573009580">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618517959806" />
+    <state x="2104" y="0" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618573009580" />
+    <state width="946" height="647" key="SwitcherDM" timestamp="1618527000924">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="946" height="647" key="SwitcherDM/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618527000924" />
+    <state x="2414" y="0" width="922" height="1080" key="VCS.ChangeListViewerDialog" timestamp="1618572746512">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2414" y="0" width="922" height="1080" key="VCS.ChangeListViewerDialog/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618572746512" />
+    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2" timestamp="1618521665758">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618521665758" />
     <state x="2730" y="29" width="289" height="1036" key="ftp.server.browser" timestamp="1618435970783">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2730" y="29" width="289" height="1036" key="ftp.server.browser/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618435970783" />
-    <state x="2350" y="0" width="1056" height="1470" key="search.everywhere.popup" timestamp="1618447040825">
+    <state x="2350" y="0" width="1056" height="1470" key="search.everywhere.popup" timestamp="1618570972853">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2350" y="0" width="1056" height="1470" key="search.everywhere.popup/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618447040825" />
+    <state x="2350" y="0" width="1056" height="1470" key="search.everywhere.popup/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618570972853" />
     <state x="2500" y="409" width="759" height="269" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1618438793583">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
