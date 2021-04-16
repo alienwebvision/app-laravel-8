@@ -19,71 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a1f98-6d18-406d-8c08-60ecc9968966" name="Default Changelist" comment="Criado layout do form de Posts">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthenticatedSessionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmablePasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/EmailVerificationNotificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/EmailVerificationPromptController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/NewPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordResetLinkController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisteredUserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerifyEmailController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Auth/LoginRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/AppLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/GuestLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/confirm-password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/forgot-password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/reset-password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify-email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/application-logo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/auth-card.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/auth-session-status.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/auth-validation-errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/dropdown-link.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/dropdown.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/input.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/label.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/nav-link.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/responsive-nav-link.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/AuthenticationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/EmailVerificationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/PasswordConfirmationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/PasswordResetTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/app-lara8-socket-io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app-lara8-socket-io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+    <list default="true" id="bc3a1f98-6d18-406d-8c08-60ecc9968966" name="Default Changelist" comment="Criado Scaffolding Auth">
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUpdatePost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreUpdatePost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_14_191533_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_14_191533_create_posts_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/_partials/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/_partials/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +206,7 @@
       <updated>1618435841152</updated>
       <workItem from="1618435842217" duration="602000" />
       <workItem from="1618436950531" duration="36778000" />
-      <workItem from="1618576283113" duration="2083000" />
+      <workItem from="1618576283113" duration="4474000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;First Commit&quot;">
       <created>1618437406712</created>
@@ -309,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618521663429</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Criado Scaffolding Auth">
+      <created>1618580027263</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618580027264</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +280,8 @@
     <MESSAGE value="Criado form de cadastro de Posts" />
     <MESSAGE value="Criado form de search de Posts" />
     <MESSAGE value="Criado layout do form de Posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado layout do form de Posts" />
+    <MESSAGE value="Criado Scaffolding Auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criado Scaffolding Auth" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2275" y="39" width="1200" height="1009" key="#Deployment" timestamp="1618435987688">
@@ -347,22 +296,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2557" y="184" width="636" height="719" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618578227267" />
-    <state width="1848" height="241" key="GridCell.Tab.0.bottom" timestamp="1618578044182">
+    <state width="1848" height="241" key="GridCell.Tab.0.bottom" timestamp="1618582927324">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1848" height="241" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618578044182" />
-    <state width="1848" height="241" key="GridCell.Tab.0.center" timestamp="1618578044182">
+    <state width="1848" height="241" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618582927324" />
+    <state width="1848" height="241" key="GridCell.Tab.0.center" timestamp="1618582927324">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1848" height="241" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618578044182" />
-    <state width="1848" height="241" key="GridCell.Tab.0.left" timestamp="1618578044181">
+    <state width="1848" height="241" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618582927324" />
+    <state width="1848" height="241" key="GridCell.Tab.0.left" timestamp="1618582927324">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1848" height="241" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618578044181" />
-    <state width="1848" height="241" key="GridCell.Tab.0.right" timestamp="1618578044182">
+    <state width="1848" height="241" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618582927324" />
+    <state width="1848" height="241" key="GridCell.Tab.0.right" timestamp="1618582927324">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1848" height="241" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618578044182" />
+    <state width="1848" height="241" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618582927324" />
     <state x="2561" y="429" width="628" height="229" key="NewPhpFileDialog" timestamp="1618518204553">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -383,10 +332,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2414" y="0" width="922" height="1080" key="VCS.ChangeListViewerDialog/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618572746512" />
-    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2" timestamp="1618521665758">
+    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2" timestamp="1618580032455">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618521665758" />
+    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618580032455" />
     <state x="2730" y="29" width="289" height="1036" key="ftp.server.browser" timestamp="1618435970783">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
