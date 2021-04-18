@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a1f98-6d18-406d-8c08-60ecc9968966" name="Default Changelist" comment="Enable Broascast service Provider">
+    <list default="true" id="bc3a1f98-6d18-406d-8c08-60ecc9968966" name="Default Changelist" comment="Config Client Socket.io">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +209,7 @@
       <updated>1618435841152</updated>
       <workItem from="1618435842217" duration="602000" />
       <workItem from="1618436950531" duration="36778000" />
-      <workItem from="1618576283113" duration="34265000" />
+      <workItem from="1618576283113" duration="34946000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;First Commit&quot;">
       <created>1618437406712</created>
@@ -302,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618773325883</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Install clients laravel-echo and socket.io-client">
+      <created>1618773821060</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1618773821060</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +348,9 @@
     <MESSAGE value="Fim do Laravel 8 e inicio do Notification socket.io" />
     <MESSAGE value="Configuração Laravel echo server" />
     <MESSAGE value="Enable Broascast service Provider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enable Broascast service Provider" />
+    <MESSAGE value="Install clients laravel-echo and socket.io-client" />
+    <MESSAGE value="Config Client Socket.io" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config Client Socket.io" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2275" y="39" width="1200" height="1009" key="#Deployment" timestamp="1618586860908">
@@ -392,10 +401,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2414" y="0" width="922" height="1080" key="VCS.ChangeListViewerDialog/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618572746512" />
-    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2" timestamp="1618772778381">
+    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2" timestamp="1618773828003">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618772778381" />
+    <state x="2275" y="145" width="1200" height="797" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618773828003" />
     <state x="2730" y="29" width="289" height="1036" key="ftp.server.browser" timestamp="1618435970783">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
