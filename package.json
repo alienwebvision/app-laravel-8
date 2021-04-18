@@ -21,6 +21,8 @@
         "tailwindcss": "^2.0.2"
     },
     "dependencies": {
-        "debug": "^4.3.1"
+        "debug": "^4.3.1",
+        "laravel-echo": "^1.10.0",
+        "socket.io-client": "^4.0.1"
     }
 }
