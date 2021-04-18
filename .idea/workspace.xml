@@ -20,8 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3a1f98-6d18-406d-8c08-60ecc9968966" name="Default Changelist" comment="A parte de Crud está pronta com Auth">
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/dompdf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/app-lara8-socket-io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app-lara8-socket-io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +168,11 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-dompdf" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
     </include_path>
   </component>
   <component name="ProjectId" id="1rB3plpoEu48c0TZ59UvqVWHGiA" />
@@ -177,7 +190,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../curso-laravel-8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/posts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -203,7 +216,7 @@
       <updated>1618435841152</updated>
       <workItem from="1618435842217" duration="602000" />
       <workItem from="1618436950531" duration="36778000" />
-      <workItem from="1618576283113" duration="12006000" />
+      <workItem from="1618576283113" duration="31611000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;First Commit&quot;">
       <created>1618437406712</created>
@@ -268,11 +281,28 @@
       <option name="project" value="LOCAL" />
       <updated>1618592002858</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="A parte de Crud está pronta com Auth">
+      <created>1618594337202</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618594337202</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -309,22 +339,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2557" y="184" width="636" height="719" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618587423950" />
-    <state width="1848" height="241" key="GridCell.Tab.0.bottom" timestamp="1618586821743">
+    <state width="1848" height="241" key="GridCell.Tab.0.bottom" timestamp="1618610130216">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1848" height="241" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618586821743" />
-    <state width="1848" height="241" key="GridCell.Tab.0.center" timestamp="1618586821743">
+    <state width="1848" height="241" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618610130216" />
+    <state width="1848" height="241" key="GridCell.Tab.0.center" timestamp="1618610130216">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1848" height="241" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618586821743" />
-    <state width="1848" height="241" key="GridCell.Tab.0.left" timestamp="1618586821743">
+    <state width="1848" height="241" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618610130216" />
+    <state width="1848" height="241" key="GridCell.Tab.0.left" timestamp="1618610130216">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1848" height="241" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618586821743" />
-    <state width="1848" height="241" key="GridCell.Tab.0.right" timestamp="1618586821743">
+    <state width="1848" height="241" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618610130216" />
+    <state width="1848" height="241" key="GridCell.Tab.0.right" timestamp="1618610130216">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1848" height="241" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618586821743" />
+    <state width="1848" height="241" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618610130216" />
     <state x="2561" y="429" width="628" height="229" key="NewPhpFileDialog" timestamp="1618518204553">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -337,10 +367,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2104" y="0" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618583185890" />
-    <state width="946" height="647" key="SwitcherDM" timestamp="1618527000924">
+    <state width="946" height="684" key="SwitcherDM" timestamp="1618746504123">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="946" height="647" key="SwitcherDM/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618527000924" />
+    <state width="946" height="684" key="SwitcherDM/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618746504123" />
     <state x="2414" y="0" width="922" height="1080" key="VCS.ChangeListViewerDialog" timestamp="1618572746512">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -353,10 +383,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2730" y="29" width="289" height="1036" key="ftp.server.browser/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618435970783" />
-    <state x="2350" y="0" width="1056" height="1470" key="search.everywhere.popup" timestamp="1618570972853">
+    <state x="2350" y="0" width="1056" height="1470" key="search.everywhere.popup" timestamp="1618609349915">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2350" y="0" width="1056" height="1470" key="search.everywhere.popup/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618570972853" />
+    <state x="2350" y="0" width="1056" height="1470" key="search.everywhere.popup/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1618609349915" />
     <state x="2500" y="409" width="759" height="269" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1618438793583">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
