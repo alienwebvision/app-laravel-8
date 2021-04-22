@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreUpdatePost;
 use App\Models\Post;
-use Barryvdh\DomPDF\PDF;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -13,7 +12,7 @@ class PostController extends Controller
 {
     public function index()
     {
-        $posts = Post::latest()->paginate(10);
+        $posts = Post::latest()->paginate(2);
 
 //        dd($posts);
 
@@ -127,18 +126,9 @@ class PostController extends Controller
 
         $filters = $request->except('_token');
 //        dd("Pesquisando por {$request->search}");
-        $posts = Post::where('title', 'LIKE', "%{$request->search}%")
+        $posts = Post::where('title', '=', $request->search)
             ->orWhere('content', 'LIKE', "%{$request->search}%")
-            ->paginate(10);
+            ->paginate(2);
         return view('admin.posts.index', compact('posts', 'filters'));
     }
-
-//    public function geraPdf()
-//    {
-//
-//        $pdf = PDF::loadView('admin.posts.index');
-//        return $pdf->download('teste.pdf');
-//        // Se quiser que fique no formato a4 retrato: ->setPaper('a4', 'landscape')
-//
-//    }
 }
