@@ -25,17 +25,17 @@ class StoreUpdatePost extends FormRequest
     public function rules()
     {
         $id = $this->segment(2);
+
         $rules = [
-            'title' => ['required',
+            'title' => [
+                'required',
                 'min:3',
-                ' max:160',
-//                 utilizada
-//                "unique:posts,title,{$id},id",
-//            Mais simples
+                'max:160',
+                //"unique:posts,title,{$id},id",
                 Rule::unique('posts')->ignore($id),
             ],
-            'image' => ['required', 'image'],
             'content' => ['nullable', 'min:5', 'max:10000'],
+            'image' => ['required', 'image']
         ];
 
         if ($this->method() == 'PUT') {

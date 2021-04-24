@@ -12,12 +12,7 @@ class PostController extends Controller
 {
     public function index()
     {
-        $posts = Post::latest()->paginate(2);
-
-//        dd($posts);
-
-        //  return view('admin.posts.index', [
-        //      'posts' => $posts, --ou -->
+        $posts = Post::latest()->paginate();
 
         return view('admin.posts.index', compact('posts'));
     }
@@ -30,12 +25,10 @@ class PostController extends Controller
     public function store(StoreUpdatePost $request)
     {
         $data = $request->all();
+
         if ($request->image->isValid()) {
 
-            $nameFile = Str::of($request->title)
-                    ->slug('-') . '.' . $request
-                    ->image
-                    ->getClientOriginalExtension();
+            $nameFile = Str::of($request->title)->slug('-') . '.' .$request->image->getClientOriginalExtension();
 
             $image = $request->image->storeAs('posts', $nameFile);
             $data['image'] = $image;
@@ -44,42 +37,35 @@ class PostController extends Controller
         Post::create($data);
 
         return redirect()
-            ->route('posts.index')
-            ->with('message', 'Post Criado com secesso!');
+                ->route('posts.index')
+                ->with('message', 'Post criado com sucesso');;
     }
 
     public function show($id)
-
     {
-//        dd($id);
-//        $post = Post::where('id', $id)->first();
+        // $post = Post::where('id', $id)->first();
         $post = Post::find($id);
 
         if (!$post) {
             return redirect()->route('posts.index');
         }
-//        dd($post);
 
         return view('admin.posts.show', compact('post'));
     }
 
-
     public function destroy($id)
     {
-//        dd("Deletando o Post ID: {$id}");
-
         if (!$post = Post::find($id))
             return redirect()->route('posts.index');
 
-        if (Storage::exists($post->image)) {
+        if (Storage::exists($post->image))
             Storage::delete($post->image);
-        }
 
         $post->delete();
 
         return redirect()
-            ->route('posts.index')
-            ->with('message', 'Post Deletado com secesso!');
+                ->route('posts.index')
+                ->with('message', 'Post Deletado com sucesso');
     }
 
     public function edit($id)
@@ -87,9 +73,9 @@ class PostController extends Controller
         if (!$post = Post::find($id)) {
             return redirect()->back();
         }
+
         return view('admin.posts.edit', compact('post'));
     }
-
 
     public function update(StoreUpdatePost $request, $id)
     {
@@ -100,35 +86,30 @@ class PostController extends Controller
         $data = $request->all();
 
         if ($request->image && $request->image->isValid()) {
-
-            if (Storage::exists($post->image)) {
+            if (Storage::exists($post->image))
                 Storage::delete($post->image);
-            }
 
-            $nameFile = Str::of($request->title)
-                    ->slug('-') . '.' . $request
-                    ->image
-                    ->getClientOriginalExtension();
+            $nameFile = Str::of($request->title)->slug('-') . '.' .$request->image->getClientOriginalExtension();
 
             $image = $request->image->storeAs('posts', $nameFile);
             $data['image'] = $image;
         }
+
         $post->update($data);
 
         return redirect()
-            ->route('posts.index')
-            ->with('message', 'Post Atualizado com sucesso');
+                ->route('posts.index')
+                ->with('message', 'Post atualizado com sucesso');
     }
 
-    public
-    function search(Request $request)
+    public function search(Request $request)
     {
-
         $filters = $request->except('_token');
-//        dd("Pesquisando por {$request->search}");
-        $posts = Post::where('title', '=', $request->search)
-            ->orWhere('content', 'LIKE', "%{$request->search}%")
-            ->paginate(2);
+
+        $posts = Post::where('title', 'LIKE', "%{$request->search}%")
+                        ->orWhere('content', 'LIKE', "%{$request->search}%")
+                        ->paginate();
+
         return view('admin.posts.index', compact('posts', 'filters'));
     }
 }
