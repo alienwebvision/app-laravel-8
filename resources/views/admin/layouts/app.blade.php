@@ -10,9 +10,9 @@
 </head>
 <body class="bg-gray-50">
 
-    <div class="container mx-auto py-8">
-        @yield('content')
-    </div>
-
+<div id="app" class="container mx-auto py-8">
+    @yield('content')
+</div>
+<script src="{{ url('js/app.js') }}"></script>
 </body>
 </html>

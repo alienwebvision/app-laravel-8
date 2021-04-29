@@ -8,7 +8,7 @@
 
 @csrf
 
-<input type="text" name="user_id" id="user_id" placeholder="ID Usuário do Pregão" value="{{ $post->user_id ?? old('user_id') }}"
+<input type="hidden" name="user_id" id="user_id" placeholder="ID Usuário do Pregão" value="{{ auth()->user()->id ?? old('user_id') }}"
        class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner">
 
 <input type="file" name="image" id="image"

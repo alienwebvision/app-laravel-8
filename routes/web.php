@@ -1,9 +1,11 @@
 <?php
 
 use App\Http\Controllers\{
-    PostController
+    PostController,
+    SiteController
 };
 use Illuminate\Support\Facades\Route;
+
 
 Route::middleware(['auth'])->group(function () {
 //    Route::any('/posts/search', [PostController::class, 'search'])->name('posts.search');
@@ -21,6 +23,8 @@ Route::any('/posts/search', [PostController::class, 'search'])->name('posts.sear
 Route::get('/posts/{id}', [PostController::class, 'show'])->name('posts.show');
 Route::get('/posts', [PostController::class, 'index'])->name('posts.index');
 
+//API
+Route::get('/api', [SiteController::class, 'api']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

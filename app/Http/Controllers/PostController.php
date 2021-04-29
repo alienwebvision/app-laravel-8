@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\PostCreated;
 use App\Http\Requests\StoreUpdatePost;
 use App\Models\Post;
 use Illuminate\Http\Request;
@@ -12,7 +13,7 @@ class PostController extends Controller
 {
     public function index()
     {
-        $posts = Post::latest()->paginate();
+        $posts = Post::latest()->paginate(10);
 
         return view('admin.posts.index', compact('posts'));
     }
@@ -24,21 +25,32 @@ class PostController extends Controller
 
     public function store(StoreUpdatePost $request)
     {
-        $data = $request->all();
+//        Checar se o usuario esta logado
+//        if (!auth()->check())
+//        {
+//            return redirect()
+//                ->route('login')
+//                ->with('message', 'Você não está logado!');
+//        }
+
+
+         $data = $request->all();
 
         if ($request->image->isValid()) {
 
-            $nameFile = Str::of($request->title)->slug('-') . '.' .$request->image->getClientOriginalExtension();
+            $nameFile = Str::of($request->title)->slug('-') . '.' . $request->image->getClientOriginalExtension();
 
             $image = $request->image->storeAs('posts', $nameFile);
             $data['image'] = $image;
         }
 
-        Post::create($data);
+        $post =  Post::create($data);
+
+//        event(new PostCreated($post));
 
         return redirect()
-                ->route('posts.index')
-                ->with('message', 'Post criado com sucesso');;
+            ->route('posts.index')
+            ->with('message', 'Post criado com sucesso');
     }
 
     public function show($id)
@@ -64,8 +76,8 @@ class PostController extends Controller
         $post->delete();
 
         return redirect()
-                ->route('posts.index')
-                ->with('message', 'Post Deletado com sucesso');
+            ->route('posts.index')
+            ->with('message', 'Post Deletado com sucesso');
     }
 
     public function edit($id)
@@ -89,7 +101,7 @@ class PostController extends Controller
             if (Storage::exists($post->image))
                 Storage::delete($post->image);
 
-            $nameFile = Str::of($request->title)->slug('-') . '.' .$request->image->getClientOriginalExtension();
+            $nameFile = Str::of($request->title)->slug('-') . '.' . $request->image->getClientOriginalExtension();
 
             $image = $request->image->storeAs('posts', $nameFile);
             $data['image'] = $image;
@@ -98,8 +110,8 @@ class PostController extends Controller
         $post->update($data);
 
         return redirect()
-                ->route('posts.index')
-                ->with('message', 'Post atualizado com sucesso');
+            ->route('posts.index')
+            ->with('message', 'Post atualizado com sucesso');
     }
 
     public function search(Request $request)
@@ -107,8 +119,8 @@ class PostController extends Controller
         $filters = $request->except('_token');
 
         $posts = Post::where('title', 'LIKE', "%{$request->search}%")
-                        ->orWhere('content', 'LIKE', "%{$request->search}%")
-                        ->paginate();
+            ->orWhere('content', 'LIKE', "%{$request->search}%")
+            ->paginate(10);
 
         return view('admin.posts.index', compact('posts', 'filters'));
     }
